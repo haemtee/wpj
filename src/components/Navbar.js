@@ -1,17 +1,18 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image'
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavbarKu() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#home">Wood Pellet Jambi - Indonesia</Navbar.Brand>
+        <Navbar.Brand href="#home"> <Image src='/img/wp.jpeg' width='30' height='30' roundedCircle  className='mr-3' /> Wood Pellet Jambi - Indonesia</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav >
-            <Nav.Link href="#products">Products</Nav.Link>
+            <Nav.Link href="#product">Products</Nav.Link>
             <Nav.Link href="https://api.whatsapp.com/send?phone=6281294282678&text=Hello%21%20I%27m%20interested%20in%20your%20product.">Contact Us</Nav.Link>
             <Nav.Link href="#aboutus">About Us</Nav.Link>
             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
