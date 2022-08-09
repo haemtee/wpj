@@ -18,7 +18,7 @@ const Footer = () => {
                         <Whatsapp /><strong> 081122334455</strong>
                     </Col>
                     <Col className='sm-12 md-4'>
-                        <h3 className='text-center'>Visit Us</h3>
+                        <h3 className='text-center mb-2'>Visit Us</h3>
                         <a href="https://goo.gl/maps/ogexgMCBAyR4hfcU9" target="_blank" rel="noopener noreferrer" className='text-center '>
                             <GeoAlt width={80} height={80} className='d-block mx-auto text-dark' />
                         </a>

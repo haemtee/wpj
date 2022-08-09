@@ -30,9 +30,9 @@ function NavbarKu() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav >
-              <Link to={'/product'} className='nav-link'> <strong>Products</strong></Link>
-              <Nav.Link href="https://api.whatsapp.com/send?phone=6281294282678&text=Hello%21%20I%27m%20interested%20in%20your%20product."><strong> Contact Us </strong></Nav.Link>
-              <Nav.Link href="#aboutus"><strong>About Us</strong></Nav.Link>
+              <Link to='/product' className='nav-link'> <strong>Products</strong></Link>
+              <Link to="/contact" className='nav-link'><strong> Contact Us </strong></Link>
+              <Link to="/about" className='nav-link'><strong>About Us</strong></Link>
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
