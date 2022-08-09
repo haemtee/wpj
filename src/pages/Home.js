@@ -1,10 +1,19 @@
+import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import Hero from '../components/Hero';
 import Image from 'react-bootstrap/Image'
 
-const Product = () => {
+const Home = () => {
     return (
-        <Row className="justify-content-md-center mt-3" id="product">
+        <Container className='mt-3'>
+            <Row className="justify-content-md-center" >
+                <Col lg={10}>
+                    <Hero />
+                </Col>
+            </Row>
+            <Row className="justify-content-md-center mt-3" id="product">
+
             <Col lg={4}>
                 <Image src='/img/3.jpg' fluid rounded={5} />
             </Col>
@@ -17,7 +26,8 @@ const Product = () => {
                 </p>
             </Col>
         </Row>
+        </Container>
     );
 }
 
-export default Product;
+export default Home;

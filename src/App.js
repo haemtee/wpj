@@ -1,24 +1,21 @@
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavbarKu from "./components/Navbar";
-import Hero from './components/Hero';
-import Product from './components/Product';
+import Product from './pages/Product';
+import Home from './pages/Home';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <div className="App">
-      <NavbarKu />
-      <Container className='mt-3'>
-        <Row className="justify-content-md-center" >
-          <Col lg={10}>
-            <Hero />
-          </Col>
-        </Row>
-
-        <Product />
-
-      </Container>
+      <BrowserRouter>
+        <NavbarKu />
+        <Routes>
+          <Route path='/' element={ <Home />} /> 
+          <Route path='/product' element={ <Product />} /> 
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

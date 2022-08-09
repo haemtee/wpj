@@ -6,7 +6,7 @@ function Hero() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/1.jpg"
+          src="/img/kunker1.jpeg"
           alt="Wood Pellet"
         />
         {/* <Carousel.Caption>
@@ -17,7 +17,7 @@ function Hero() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/2.jpg"
+          src="/img/kunker2.jpeg"
           alt="Wood Pellet 2"
         />
 
@@ -29,17 +29,42 @@ function Hero() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/3.jpg"
+          src="/img/kunker3.jpeg"
           alt="Wood Pellet 3"
         />
+     </Carousel.Item>
+     <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/img/kunker4.jpeg"
+          alt="Wood Pellet 4"
+        />
+     </Carousel.Item>
 
-        {/* <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption> */}
-      </Carousel.Item>
+     <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/img/kunker5.jpeg"
+          alt="Wood Pellet 5"
+        />
+     </Carousel.Item>
+
+     <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/img/kunker6.jpeg"
+          alt="Wood Pellet 6"
+        />
+     </Carousel.Item>
+
+     <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="/img/kunker7.jpeg"
+          alt="Wood Pellet 7"
+        />
+     </Carousel.Item>
+
     </Carousel>
   );
 }
