@@ -10,7 +10,7 @@ import { Facebook, Twitter, Youtube, Instagram } from 'react-bootstrap-icons'
 function NavbarKu() {
   return (
     <>
-      <div expand='lg' className='.d-sm-none .d-md-block bg-black' >
+      <div expand='lg' className='d-none d-md-block bg-black py-1' >
         <Container>
           <Row>
               <Col className="welcome mr-auto text-white">Welcome to PT. Jimmy Sriwijaya Sarana Muda Sejahtera Sentosa</Col>
